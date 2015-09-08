@@ -7,8 +7,8 @@ import java.util.List;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.frame.activity.BaseActivity;
-import com.frame.analysis.GsonUtil;
+import com.frame.base.BaseActivity;
+import com.frame.gson.GsonUtil;
 
 public class CacheUtil {
 	private static CacheUtil cacheUtil;

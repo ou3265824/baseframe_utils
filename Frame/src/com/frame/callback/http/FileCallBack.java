@@ -2,7 +2,7 @@ package com.frame.callback.http;
 
 import java.io.File;
 
-import com.frame.entity.BaseEntity;
+import com.frame.base.BaseEntity;
 
 public abstract class FileCallBack extends HttpCallBack<File>{
 	

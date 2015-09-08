@@ -1,9 +1,8 @@
-package com.frame.application;
+package com.frame.base;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.frame.activity.BaseActivity;
 
 import android.app.Application;
 //管理activity

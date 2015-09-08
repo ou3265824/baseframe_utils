@@ -1,4 +1,4 @@
-package com.frame.analysis;
+package com.frame.gson;
 
 import java.lang.reflect.Type;
 

@@ -27,8 +27,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class ToolFor9Ge 
-{
+public class ToolFor9Ge {
 	// 缩放/裁剪图片
  	public static Bitmap zoomImg(Bitmap bm, int newWidth ,int newHeight)
  	{ 

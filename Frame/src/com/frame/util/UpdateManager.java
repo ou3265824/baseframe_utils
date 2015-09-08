@@ -30,6 +30,7 @@ import android.widget.TextView;
 
 import com.example.frame.R;
 
+//更新
 public class UpdateManager {
 
 	private  Context mContext;
@@ -50,11 +51,6 @@ public class UpdateManager {
 	/* 下载包安装路径 */
 	private static String savePath = getSDPath() + "/thumb/";
 
-	// private static final String savePath = "/sdcard/updatedemo/";
-
-//	private  String saveFileName = savePath
-//			+ "thumb"+name+".apk";
-	
 	private  String saveFileName;
 	/* 进度条与通知ui刷新的handler和msg常量 */
 	private ProgressBar mProgress;

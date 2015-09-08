@@ -5,12 +5,12 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 
-import com.frame.analysis.GsonUtil;
+import com.frame.base.BaseEntity;
 import com.frame.callback.http.FileCallBack;
 import com.frame.callback.http.GsonCallBack;
 import com.frame.callback.http.HttpCallBack;
 import com.frame.callback.http.TextCallBack;
-import com.frame.entity.BaseEntity;
+import com.frame.gson.GsonUtil;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.RequestParams;
@@ -47,7 +47,7 @@ public class HttpLoader {
 	public static String UrlEncode(String s)
 	{
 		try {
-			return URLEncoder.encode(s, "UTF-8").replace("+", "%20");
+			return URLEncoder.encode(s, "UTF-8");
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

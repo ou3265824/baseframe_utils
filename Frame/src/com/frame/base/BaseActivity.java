@@ -1,6 +1,5 @@
-package com.frame.activity;
+package com.frame.base;
 
-import com.frame.application.BaseApplication;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;

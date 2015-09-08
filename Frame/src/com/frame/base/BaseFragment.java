@@ -1,6 +1,5 @@
-package com.frame.fragment;
+package com.frame.base;
 
-import com.frame.activity.BaseActivity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

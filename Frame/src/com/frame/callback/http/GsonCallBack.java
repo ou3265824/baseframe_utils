@@ -2,8 +2,8 @@ package com.frame.callback.http;
 
 import java.lang.reflect.Type;
 
-import com.frame.callback.CallBack;
-import com.frame.entity.BaseEntity;
+import com.frame.base.BaseCallBack;
+import com.frame.base.BaseEntity;
 
 public abstract class GsonCallBack extends HttpCallBack<BaseEntity>{
 	
